@@ -160,6 +160,7 @@ font-weight: bolder;
     }
     
     .accordion .accordion-item {
+    filter: grayscale(100%);
     border-top: 1px solid rgb(226, 231, 235);
     margin: 15px;
     margin-top: 0px;
@@ -172,6 +173,7 @@ font-weight: bolder;
     
     #features-info-img>div>img{
         width: 100%;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     }
     #accordion-sec {
         max-width: 450px;
@@ -181,6 +183,7 @@ font-weight: bolder;
 
 
 .accordion-item.active {
+    filter: grayscale(0%);
   border-color: #007bff;
   background-color: rgb(231, 237, 252);
   color: rgb(46, 68, 151);
@@ -215,3 +218,46 @@ font-weight: bolder;
 .accordion-body {
   padding: 1rem;
 }
+
+.nav-link.activ{
+    color: red;
+}
+
+#nav-tab button{
+    border: 0px;
+    border-top: 2px solid rgb(119, 126, 133);
+    font-weight: 600;
+    color: rgb(119, 126, 133);
+    border-radius: 0%;
+  }
+  #nav-tab{
+    border: none;
+    
+  }
+  #nav-tab .active{
+    border-color: rgb(48, 121, 242);
+    color: rgb(48, 121, 242);
+  }
+  #nav-tab button:hover{
+    color: rgb(48, 121, 242);
+  }
+  .wt2>button{
+    padding-left: 4%;
+    padding-right: 4%;
+  }
+  .wt-container{
+    width: 65%;
+  }
+  .wt-info>div>div>p{
+    font-weight: 600;
+  }
+  .wt-info p{
+    font-size: 19px;
+  }
+  .wt-info a{
+    text-decoration: none;
+    font-weight: 600;
+  }
+  #wt-name{
+    border-top: 1px solid rgb(225, 225, 225);
+  }
