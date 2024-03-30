@@ -215,3 +215,68 @@ font-weight: bolder;
 .accordion-body {
   padding: 1rem;
 }
+/* Footer */
+.bot{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(234,237,240);
+    /* padding: 15px 15px 5px 15px; */
+}
+.bot>button{
+    background-color: rgb(13, 231, 13);
+    padding: 5px 12px 5px 12px;
+    border-radius: 4px;
+    color: white;
+}
+.foot{
+    display: grid;
+    grid-template-areas: "a b c d e";
+    padding: 30px;
+}
+
+.foot>div:nth-of-type(1){
+    grid-area: a;
+}
+.foot>div:nth-of-type(2){
+    grid-area: b;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    justify-content: start;
+    align-items: self-start;
+    
+}
+.foot>div:nth-of-type(3){
+    grid-area: c;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    justify-content: start;
+    align-items: self-start;
+}
+.foot>div:nth-of-type(4){
+    grid-area: d;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    justify-content: start;
+    align-items: self-start;
+}
+.foot>div:nth-of-type(5){
+    grid-area: e;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    justify-content: start;
+    align-items: self-start;
+}
+
+@media (max-width:1050px){
+    .foot{
+        display: grid;
+        grid-template-areas: "a . . ."
+                            "b c d e";
+    }
+}
