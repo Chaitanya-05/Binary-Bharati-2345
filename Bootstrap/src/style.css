@@ -135,19 +135,14 @@ font-weight: bolder;
 
 
 
-    /* Chaitanya */
-.accordion .accordion-item {
-    border-top: 1px solid rgb(226, 231, 235);
-  }
-  #accordion-sec{
-    margin: 20px;
-  }
-  #features-info{
-    padding-top: 100px;
-    padding-bottom: 100px;
-
-  }
-  #features-info>div:first-child{
+/*.------------------------ Chaitanya ------------------------------*/
+    /* Heading */
+    #features-info{
+        padding-top: 100px;
+        padding-bottom: 100px;
+    
+    }
+    #features-info>div:first-child{
     max-width:800px;
     font-weight: 800;
     letter-spacing: 2px;
@@ -155,27 +150,36 @@ font-weight: bolder;
     margin: auto;
     font-size: 48px;
     margin-bottom: 50px;
-  }
-  #features-info-img{
-    max-width: 65%;
-            
-  }
-  #features-info-img>div>img{
-    max-width: 100%;
-  }
-  #accordion-sec {
-    width: 25%;
-  }
+    }
+    #features-info-img{
+        max-width: 65%;                
+    }
+    
+    .accordion .accordion-item {
+    border-top: 1px solid rgb(226, 231, 235);
+    margin: 15px;
+    margin-top: 0px;
+    border-radius: 15px;
+    }  
+  
+    
+    #features-info-img>div>img{
+        width: 100%;
+    }
+    #accordion-sec {
+        width: 25%;
+    }
   /* Custom styles for the accordion */
 
 
 .accordion-item.active {
   border-color: #007bff;
+  background-color: rgb(231, 237, 252);
 
 }
 
 .accordion-header {
-  background-color: #ffffff;
+  background-color: transparent;
   color: #212529;
   padding: 0.75rem 1.25rem;
   cursor: pointer;
