@@ -69,6 +69,20 @@ font-weight: bolder;
     padding-bottom: 80px;
     /* margin-right: 80px; */
 }
-.cont2{
+#cont2{
+    padding: 20px;
     background-color: rgb(248,248,251);
 }
+.cont1{
+    padding: 20px;
+}
+@media (max-width:950px){
+#cont2{
+    flex-direction: column;
+}
+}
+@media (max-width:950px){
+    #cont1{
+        flex-direction: column;
+    }
+    }
