@@ -51,6 +51,41 @@ header nav img{
         height: 80px;
     }
 }
+<<<<<<< HEAD
+.review-container{
+    padding: 64px 0;
+    background-color: #fff2cc;
+}
+.review-img-thumbnail{
+    background-color: transparent;
+    margin: 0 auto 2rem;
+}
+.review-heading{
+    margin-bottom: 2rem;
+}
+.container-business-info{
+    padding: 44px 0 33px;
+    text-align: center;
+}
+.businesses-icon-container{
+    
+    list-style: none;
+    
+}
+.view-container{
+    padding: 96px 0 84px; 
+    background-color: #ccffd5; 
+}
+.card {
+    margin: 10px;
+    height: 280px; /* Adjust as needed */
+    overflow: hidden;
+    text-align:left;
+    padding:20px;
+    margin-top: 40px;
+    
+}
+=======
 
 
 .ss1{
@@ -86,3 +121,4 @@ font-weight: bolder;
         flex-direction: column;
     }
     }
+>>>>>>> 3968b2480e4941bd23b69d1ec58268ca7f1dc6ba
