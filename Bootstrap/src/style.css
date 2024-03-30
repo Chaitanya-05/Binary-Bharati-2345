@@ -30,7 +30,12 @@ header nav img{
     border: none;
 }
 
-
+@media(min-width:1100px){
+    body{
+        max-width: 1420px;
+        margin: auto;
+    }
+  }
 
 
 
@@ -45,4 +50,99 @@ header nav img{
         width: 80px;
         height: 80px;
     }
+}
+
+
+.ss1{
+width: 900px;
+height: 900px;
+padding-right: 100px;
+/* margin-right: 80px; */
+}
+.txt1 h1{
+font-size: 42px;
+font-weight: bolder;
+
+}
+.txt1{
+    /* border: 1px solid; */
+    padding-bottom: 80px;
+    /* margin-right: 80px; */
+}
+.cont2{
+    background-color: rgb(248,248,251);
+}
+
+/* Chaitanya */
+.accordion .accordion-item {
+    border-top: 1px solid rgb(226, 231, 235);
+  }
+  #accordion-sec{
+    margin: 20px;
+  }
+  #features-info{
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+  }
+  #features-info>div:first-child{
+    max-width:800px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    text-align: center;
+    margin: auto;
+    font-size: 48px;
+    margin-bottom: 50px;
+  }
+  #features-info-img{
+    max-width: 65%;
+            
+  }
+  #features-info-img>div>img{
+    max-width: 100%;
+  }
+  #accordion-sec {
+    width: 25%;
+  }
+  /* Custom styles for the accordion */
+.accordion-item {
+  background-color: #e7edfc;
+  border: 1px solid red;
+  border-radius: 8px;
+  margin: 5px;
+  
+
+}
+
+.accordion-item.active {
+  border-color: #007bff;
+
+}
+
+.accordion-header {
+  background-color: #ffffff;
+  color: #212529;
+  padding: 0.75rem 1.25rem;
+  cursor: pointer;
+  border-top: #007bff;
+  border-radius: 8px;
+}
+.accordion-header.active{
+  background-color: #e7edfc;
+}
+.accordion-button.active{
+  background-color: #e7edfc ;
+}
+
+/* .accordion-header:hover {
+  background-color: #dee2e6;
+} */
+
+/* Remove the arrow icon */
+.accordion-button::after {
+  display: none;
+}
+
+.accordion-body {
+  padding: 1rem;
 }
