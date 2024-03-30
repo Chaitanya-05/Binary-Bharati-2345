@@ -3,22 +3,36 @@
     padding: 0;
     box-sizing: border-box;
 }
-.our-container{
-    max-width: 1600px;
-    margin: auto;
+header{
+    background-color: rgb(255,240,184);
 }
 .navbar{
     display: flex;
     justify-content: space-between;
+    padding: 10px 70px;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+header .navbar .icon{
+    display: none;
 }
 header .navbar .logo{
     display: flex;
     justify-content: center;
     align-items: center;
 }
+header .navbar .logo button{
+    margin: 0 18px;
+}
+header .navbar .logo span{
+    font-weight: 700;
+    font-size: 22px;
+}
 header nav img{
     height: 45px;
     width: 45px;
+    margin-right: 10px;
 }
 .company-images{
     display: flex;
@@ -33,6 +47,180 @@ header nav img{
     margin: 12px;
     border: none;
 }
+header .navbar .nav-link{
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+}
+#dropdown-1{
+    margin:10px -465px;  
+    width: 1024%;
+    padding: 20px;
+    border: none;
+}
+#dropdown-1 .dropdown-item{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 20%;
+    gap: 2%;
+}
+#dropdown-1 .dropdown-item p{
+    width: 85%;
+    text-wrap: wrap;
+    font-size: 15.5px;
+}
+#dropdown-2{
+    margin:10px -600px;  
+    width: 800%;
+    padding: 20px;
+    border: none;
+}
+#dropdown-2 .dropdown-item{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 20%;
+    gap: 2%;
+}
+#dropdown-2 .dropdown-item p{
+    width: 85%;
+    text-wrap: wrap;
+    font-size: 15.5px;
+}
+#dropdown-3{
+    margin:10px -775px;  
+    width: 1335%;
+    padding: 20px;
+    border: none;
+}
+#dropdown-3 .dropdown-item{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 20%;
+    gap: 2%;
+}
+#dropdown-3 .dropdown-item p{
+    width: 85%;
+    text-wrap: wrap;
+    font-size: 15.5px;
+}
+header section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 90px 70px 10px 70px;
+    background-color: rgb(255,240,184);
+}
+header section .container-1{
+    width: 550px;
+}
+header section .container-1 h1{
+    font-size: 60px;
+    margin-top: -20px;
+    font-weight: 700;
+}
+header section .container-1 p{
+    font-weight: 600;
+    font-size: 20px;
+}
+header section .container-1 .input{
+    position: relative;
+}
+header section .container-1 .input input{
+    width: 100%;
+    padding: 10px 43px;
+    border-radius: 4px;
+    border: 1px solid lightgray;
+}
+header section .container-1 .input i{
+    position: absolute;
+    color: rgb(48,112,240);
+    font-size: 24px;
+    padding: 12px 5px;
+}
+header section .container-1 #button-section button{
+    margin: 20px 0;
+    padding: 9px 44px;
+    border: none;
+    background-color: rgb(48,112,240);  
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+}
+header section .container-1 #button-section button:hover{
+    cursor: pointer;
+    background-color: rgb(18, 85, 219);
+}
+header section .container-1 #button-section span{
+    font-weight: 600;
+    margin: 0 0 0 10px;
+}
+header section .container-2{
+    width: 700px;
+}
+header section .container-2 img{
+    width: 100%;
+}
+
+main #integration .integrate-container{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+main #integration .integrate-container .boxes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px;
+}
+main #integration .integrate-container .boxes .box{
+    width: 130px;
+    height: 130px;
+    border: 1px solid lightgray;
+    padding: 10px;
+    border-radius: 10px;
+}
+main #integration .boxes .box img{
+    width: 100%;
+    height: 100%;
+}
+main #integration .integrate-container .text{
+    width: 82%;
+}
+main #integration .integrate-container .text h2{
+    font-size: 49px;
+    text-align: center;
+    font-weight: 700;
+    margin: 20px 0;
+}
+main #integration .integrate-container .text p{
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    margin: 20px 0;
+}
+main #integration .integrate-container .text .btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main #integration .integrate-container .text .btn button{
+    padding: 9px 44px;
+    border: none;
+    background-color: rgb(48,112,240);  
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+} 
+main #integration .integrate-container .text .btn span{
+    color: rgb(48,112,240);
+    padding: 0 15px;
+}
+
+
+
+
+
+
+
 
 
 @media (max-width : 1034px){
@@ -47,171 +235,112 @@ header nav img{
         height: 80px;
     }
 }
-
- /* --------------------Rakesh------------------ */
-
-.review-container{
-    padding: 64px 0;
-    background-color: #fff2cc;
-}
-.review-img-thumbnail{
-    background-color: transparent;
-    margin: 0 auto 2rem;
-}
-.review-heading{
-    margin-bottom: 2rem;
-}
-.container-business-info{
-    padding: 44px 0 33px;
-    text-align: center;
-}
-.businesses-icon-container{
-    
-    list-style: none;
-    
-}
-.view-container{
-    padding: 96px 0 84px; 
-    background-color: #ccffd5; 
-}
-.card {
-    margin: 10px;
-    height: 280px; /* Adjust as needed */
-    overflow: hidden;
-    text-align:left;
-    padding:20px;
-    margin-top: 40px;
-    
-}
-#hyper{
-    text-decoration: none;
-    font-weight: 600;
-    font-size: 36px;
-}
-/* --------------------Rakesh(END)------------------ */
-
-
-.ss1{
-width: 900px;
-height: 900px;
-padding-right: 100px;
-/* margin-right: 80px; */
-}
-.txt1 h1{
-font-size: 42px;
-font-weight: bolder;
-
-}
-.txt1{
-    /* border: 1px solid; */
-    padding-bottom: 80px;
-    /* margin-right: 80px; */
-}
-
-.cont2{
-    background-color: rgb(248,248,251);
-}
-
-
-
-#cont2{
-    padding: 20px;
-    background-color: rgb(248,248,251);
-}
-.cont1{
-    padding: 20px;
-}
-@media (max-width:950px){
-#cont2{
-    flex-direction: column;
-}
-}
-@media (max-width:950px){
-    #cont1{
+@media (max-width: 1103px){
+    header .nav, .buttons{
+        display: none;
+    }
+    header .logo button{
+        display: none;
+    }
+    header .logo{
+        margin: auto;
+    }
+    .navbar{
+        background-color: rgb(255, 255, 255);
+        z-index: 1000;
+    }
+    header .navbar .icon{
+        display: block;
+    }
+    header #container{
+        display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
-    }
-   
-
-
-
-
-
-
-
-/*.------------------------ Chaitanya ------------------------------*/
-    /* Heading */
-    #features-info{
-        padding-top: 100px;
-        padding-bottom: 100px;
-    
-    }
-    #features-info>div:first-child{
-    max-width:800px;
-    font-weight: 800;
-    letter-spacing: 2px;
-    text-align: center;
-    margin: auto;
-    font-size: 48px;
-    margin-bottom: 50px;
-    }
-    #features-info-img{
-        max-width: 65%;                
-    }
-    
-    .accordion .accordion-item {
-    border-top: 1px solid rgb(226, 231, 235);
-    margin: 15px;
-    margin-top: 0px;
-    border-radius: 15px;
-    }  
-    .accordion-header > img{
-        margin-right: 20px;
-    }
-
-    
-    #features-info-img>div>img{
+    header #container .container-1{
         width: 100%;
     }
-    #accordion-sec {
-        max-width: 450px;
-        min-width: 300px;
+    header #container h1, p{
+        margin: auto;
+        text-align: center;
     }
-  /* Custom styles for the accordion */
-
-
-.accordion-item.active {
-  border-color: #007bff;
-  background-color: rgb(231, 237, 252);
-  color: rgb(46, 68, 151);
-
+    header #container .input{
+        width: 50%;
+        margin: auto;
+    }
+    header #container #button-section{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    header #container .container-2{
+        width: 900px;
+    }
+    header #container .container-2 img{
+        width: 100%;
+    }
 }
 
-.accordion-header {
-  background-color: transparent;
-  color: #212529;
-  padding: 0.75rem 1.25rem;
-  cursor: pointer;
-  border-top: #007bff;
-  border-radius: 8px;
+@media (max-width: 840px){
+    header #container .container-2{
+        width: 600px;
+    }
+    header #container .container-2 img{
+        width: 100%;
+    }
+    main #integration .integrate-container .text h2{
+        font-size: 34px;
+        text-align: center;
+        font-weight: 700;
+    }
+    main #integration .integrate-container .text p{
+        font-size: 15px;
+        font-weight: 600;
+        text-align: center;
+    }
 }
-.accordion-body >div{
-    font-weight: 500;
-    transform: translateY(-20px);
-    margin-top: 0%;
-    margin-left: 70px;
-    line-height: 100%;
+@media (max-width: 590px){
+    header #container h1{
+        font-size: 25px;
+    }
+    header #container p{
+        font-size: 12px;
+    }
+    header #container .container-2{
+        width: 300px;
+    }
+    header #container .container-2 img{
+        width: 100%;
+    }
+    header #container .input{
+        width: 100%;
+        margin: auto;
+    }
+    header #container #button-section{
+        width: 100%;
+        margin: auto;
+    }
+    header #container #button-section button{
+        width: 100%;
+    }
+    main #integration .integrate-container .text .btn{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    main #integration .integrate-container .text .btn button{
+        padding: 9px 24px;
+        border: none;
+        background-color: rgb(48,112,240);  
+        color: rgb(255, 255, 255);
+        border-radius: 5px;
+        font-size: 13px;
+    } 
+    main #integration .integrate-container .text .btn span{
+        font-size: 14px;
+    }
+}
 
-}
-.accordion-body >div a{
-    line-height: 300%;
-}
-
-/* Remove the arrow icon */
-.accordion-button::after {
-  display: none;
-}
-
-.accordion-body {
-  padding: 1rem;
-}
