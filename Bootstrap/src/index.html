@@ -12,6 +12,49 @@
     <link rel="stylesheet" href="./style.css">
 
     <title>Document</title>
+
+    <style>
+      /* Custom styles for the accordion */
+    .accordion-item {
+      background-color: #e7edfc;
+      border: 1px solid red;
+      border-radius: 8px;
+      margin: 5px;
+
+    }
+
+    .accordion-item.active {
+      border-color: #007bff;
+
+    }
+
+    .accordion-header {
+      background-color: #ffffff;
+      color: #212529;
+      padding: 0.75rem 1.25rem;
+      cursor: pointer;
+      border-radius: 8px;
+    }
+    .accordion-header.active{
+      background-color: #e7edfc;
+    }
+    .accordion-button.active{
+      background-color: #e7edfc ;
+    }
+
+    /* .accordion-header:hover {
+      background-color: #dee2e6;
+    } */
+
+    /* Remove the arrow icon */
+    .accordion-button::after {
+      display: none;
+    }
+
+    .accordion-body {
+      padding: 1rem;
+    }
+    </style>
 </head>
 <body>
     <!-- Sathwik -->
