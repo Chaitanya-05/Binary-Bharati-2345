@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+.our-container{
+    max-width: 1600px;
+    margin: auto;
+}
 .navbar{
     display: flex;
     justify-content: space-between;
@@ -29,14 +33,6 @@ header nav img{
     margin: 12px;
     border: none;
 }
-
-@media(min-width:1100px){
-    body{
-        max-width: 1420px;
-        margin: auto;
-    }
-  }
-
 
 
 @media (max-width : 1034px){
@@ -161,13 +157,17 @@ font-weight: bolder;
     margin-top: 0px;
     border-radius: 15px;
     }  
-  
+    .accordion-header > img{
+        margin-right: 20px;
+    }
+
     
     #features-info-img>div>img{
         width: 100%;
     }
     #accordion-sec {
-        width: 25%;
+        max-width: 450px;
+        min-width: 300px;
     }
   /* Custom styles for the accordion */
 
@@ -175,6 +175,7 @@ font-weight: bolder;
 .accordion-item.active {
   border-color: #007bff;
   background-color: rgb(231, 237, 252);
+  color: rgb(46, 68, 151);
 
 }
 
@@ -185,6 +186,17 @@ font-weight: bolder;
   cursor: pointer;
   border-top: #007bff;
   border-radius: 8px;
+}
+.accordion-body >div{
+    font-weight: 500;
+    transform: translateY(-20px);
+    margin-top: 0%;
+    margin-left: 70px;
+    line-height: 100%;
+
+}
+.accordion-body >div a{
+    line-height: 300%;
 }
 
 /* Remove the arrow icon */
