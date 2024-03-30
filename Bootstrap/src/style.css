@@ -30,7 +30,12 @@ header nav img{
     border: none;
 }
 
-
+@media(min-width:1100px){
+    body{
+        max-width: 1420px;
+        margin: auto;
+    }
+  }
 
 
 
@@ -46,6 +51,7 @@ header nav img{
         height: 80px;
     }
 }
+<<<<<<< HEAD
 .review-container{
     padding: 64px 0;
     background-color: #fff2cc;
@@ -79,3 +85,40 @@ header nav img{
     margin-top: 40px;
     
 }
+=======
+
+
+.ss1{
+width: 900px;
+height: 900px;
+padding-right: 100px;
+/* margin-right: 80px; */
+}
+.txt1 h1{
+font-size: 42px;
+font-weight: bolder;
+
+}
+.txt1{
+    /* border: 1px solid; */
+    padding-bottom: 80px;
+    /* margin-right: 80px; */
+}
+#cont2{
+    padding: 20px;
+    background-color: rgb(248,248,251);
+}
+.cont1{
+    padding: 20px;
+}
+@media (max-width:950px){
+#cont2{
+    flex-direction: column;
+}
+}
+@media (max-width:950px){
+    #cont1{
+        flex-direction: column;
+    }
+    }
+>>>>>>> 3968b2480e4941bd23b69d1ec58268ca7f1dc6ba
