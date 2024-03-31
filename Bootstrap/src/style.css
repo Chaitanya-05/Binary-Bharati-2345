@@ -1,0 +1,280 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.our-container{
+    max-width: 1600px;
+    margin: auto;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+header .navbar .logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header nav img{
+    height: 45px;
+    width: 45px;
+}
+.company-images{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 12px;
+}
+.company-images img{
+    width: 120px;
+    height: 120px;
+    margin: 12px;
+    border: none;
+}
+
+
+@media (max-width : 1034px){
+    .company-images img{
+        width: 99.4px;
+        height: 99.4px;
+    }
+}
+@media (max-width : 1024px){
+    .company-images img{
+        width: 80px;
+        height: 80px;
+    }
+}
+
+ /* --------------------Rakesh------------------ */
+
+.review-container{
+    padding: 64px 0;
+    background-color: #fff2cc;
+}
+.review-img-thumbnail{
+    background-color: transparent;
+    margin: 0 auto 2rem;
+}
+.review-heading{
+    margin-bottom: 2rem;
+}
+.container-business-info{
+    padding: 44px 0 33px;
+    text-align: center;
+}
+.businesses-icon-container{
+    
+    list-style: none;
+    
+}
+.view-container{
+    padding: 96px 0 84px; 
+    background-color: #ccffd5; 
+}
+.card {
+    margin: 10px;
+    height: 280px; /* Adjust as needed */
+    overflow: hidden;
+    text-align:left;
+    padding:20px;
+    margin-top: 40px;
+    
+}
+#hyper{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 36px;
+}
+/* --------------------Rakesh(END)------------------ */
+
+
+.ss1{
+width: 900px;
+height: 900px;
+padding-right: 100px;
+/* margin-right: 80px; */
+}
+.txt1 h1{
+font-size: 42px;
+font-weight: bolder;
+
+}
+.txt1{
+    /* border: 1px solid; */
+    padding-bottom: 80px;
+    /* margin-right: 80px; */
+}
+
+.cont2{
+    background-color: rgb(248,248,251);
+}
+
+
+
+#cont2{
+    padding: 20px;
+    background-color: rgb(248,248,251);
+}
+.cont1{
+    padding: 20px;
+}
+@media (max-width:950px){
+#cont2{
+    flex-direction: column;
+}
+}
+@media (max-width:950px){
+    #cont1{
+        flex-direction: column;
+    }
+    }
+   
+
+
+
+
+
+
+
+/*.------------------------ Chaitanya ------------------------------*/
+@media (max-width:1050px){
+    #features-info>div:nth-child(2){
+        flex-direction: column;
+        align-items: center;
+    }
+    #features-info-img{
+        max-width: 90%;
+        margin: auto;                
+    }       
+    }
+
+    /* Heading */
+    #features-info{
+        padding-top: 100px;
+        padding-bottom: 100px;
+    
+    }
+    #features-info>div:first-child{
+    max-width:800px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    text-align: center;
+    margin: auto;
+    font-size: 48px;
+    margin-bottom: 50px;
+    }
+    #features-info-img{
+        max-width: 65%;                
+    }
+    
+    .accordion .accordion-item {
+    filter: grayscale(100%);
+    border-top: 1px solid rgb(226, 231, 235);
+    margin: 15px;
+    margin-top: 0px;
+    border-radius: 15px;
+    }  
+    .accordion-header > img{
+        margin-right: 20px;
+    }
+
+    
+    #features-info-img>div>img{
+        width: 100%;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    }
+    #accordion-sec {
+        max-width: 450px;
+        min-width: 300px;
+    }
+  /* Custom styles for the accordion */
+
+
+.accordion-item.active {
+    filter: grayscale(0%);
+  border-color: #007bff;
+  background-color: rgb(231, 237, 252);
+  color: rgb(46, 68, 151);
+
+}
+
+.accordion-header {
+  background-color: transparent;
+  color: #212529;
+  padding: 0.75rem 1.25rem;
+  cursor: pointer;
+  border-top: #007bff;
+  border-radius: 8px;
+}
+.accordion-body >div{
+    font-weight: 500;
+    transform: translateY(-20px);
+    margin-top: 0%;
+    margin-left: 70px;
+    line-height: 100%;
+
+}
+.accordion-body >div a{
+    line-height: 300%;
+}
+
+/* Remove the arrow icon */
+.accordion-button::after {
+  display: none;
+}
+
+.accordion-body {
+  padding: 1rem;
+}
+
+.nav-link.activ{
+    color: red;
+}
+
+#nav-tab button{
+    border: 0px;
+    border-top: 2px solid rgb(119, 126, 133);
+    font-weight: 600;
+    color: rgb(119, 126, 133);
+    border-radius: 0%;
+  }
+  #nav-tab{
+    border: none;
+    
+  }
+  #nav-tab .active{
+    border-color: rgb(48, 121, 242);
+    color: rgb(48, 121, 242);
+  }
+  #nav-tab button:hover{
+    color: rgb(48, 121, 242);
+  }
+  .wt2>button{
+    padding-left: 4%;
+    padding-right: 4%;
+  }
+  .wt-container{
+    width: 70%;
+  }
+  .wt-info>div>div>p{
+    font-weight: 600;
+  }
+  .wt-info p{
+    font-size: 19px;
+    font-weight: 500;
+  }
+  .wt-info a{
+    text-decoration: none;
+    font-weight: 600;
+  }
+  #wt-name{
+    border-top: 1px solid rgb(225, 225, 225);
+  }
+  @media (max-width:1050px){
+    #h-img{
+        display: none;
+    }
+  }
