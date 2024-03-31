@@ -146,6 +146,19 @@ font-weight: bolder;
         padding-bottom: 100px;
     
     }
+    @media (max-width:1050px){
+    #features-info>div:nth-child(2){
+        flex-direction: column;
+        align-items: center;
+    }
+    #features-info-img{
+        max-width: 90%;
+        margin: auto;                
+    }       
+    }
+
+
+
     #features-info>div:first-child{
     max-width:800px;
     font-weight: 800;
@@ -246,13 +259,15 @@ font-weight: bolder;
     padding-right: 4%;
   }
   .wt-container{
-    width: 65%;
+    width: 70%;
   }
+  
   .wt-info>div>div>p{
     font-weight: 600;
   }
   .wt-info p{
     font-size: 19px;
+    font-weight: 500;
   }
   .wt-info a{
     text-decoration: none;
@@ -260,4 +275,9 @@ font-weight: bolder;
   }
   #wt-name{
     border-top: 1px solid rgb(225, 225, 225);
+  }
+  @media (max-width:1050px){
+    #h-img{
+        display: none;
+    }
   }

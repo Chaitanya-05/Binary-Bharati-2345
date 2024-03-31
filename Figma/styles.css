@@ -1,3 +1,8 @@
+body {
+  margin: 0px;
+  font-family: "Poppins", sans-serif;
+}
+
 .sec1 {
   margin: auto;
   max-width: 1320px;
@@ -86,4 +91,116 @@
   justify-content: space-around;
   align-items: center;
   padding-bottom: 120px;
+}
+
+#bg {
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+}
+
+#float {
+  position: absolute;
+  height: 750px;
+  width: 340px;
+  top: 185px;
+  left: 1225px;
+}
+#float img {
+  width: 100%;
+}
+
+header {
+  height: 1050px;
+}
+header nav {
+  height: 88px;
+  width: 1320px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+header nav ul {
+  align-items: center;
+  display: flex;
+  list-style: none;
+  gap: 25px;
+}
+header nav ul li:nth-of-type(2) {
+  color: rgb(255, 124, 46);
+}
+header nav > div {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+header nav > div > div:nth-of-type(4) {
+  padding: 10px 15px 10px 15px;
+  border: 1px solid;
+  border-radius: 25px;
+}
+header p {
+  font-size: 14px;
+  margin-top: 65px;
+  margin-left: 315px;
+}
+header > div {
+  width: 480px;
+  font-weight: 600;
+  font-size: 60px;
+  margin-left: 315px;
+}
+
+#loc {
+  width: 1320px;
+  margin: auto;
+}
+#loc section:nth-of-type(1) {
+  margin-top: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 100px;
+}
+#loc section:nth-of-type(2) {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  margin-bottom: 100px;
+}
+#loc section:nth-of-type(2) > div {
+  padding: 40px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#loc section:nth-of-type(2) > div h2 {
+  font-size: 42px;
+  margin: 0%;
+}
+#loc section:nth-of-type(2) > div span {
+  padding: 20px 30px 20px 30px;
+  border-radius: 10px;
+  width: 120px;
+  font-weight: 600;
+  color: black;
+  background-color: aliceblue;
+}
+#loc section:nth-of-type(2) > div:nth-of-type(1) {
+  height: 390px;
+  width: 630px;
+  border-radius: 10px;
+  background-image: url("./img/text.png");
+  background-position: center;
+  background-size: cover;
+}
+#loc section:nth-of-type(2) > div:nth-of-type(2) {
+  height: 390px;
+  width: 630px;
+  border-radius: 10px;
+  background-image: url("./img/text (1).png");
+  background-position: center;
+  background-size: cover;
 }/*# sourceMappingURL=styles.css.map */
