@@ -4,8 +4,7 @@ Travelopia is a single-page web component designed to provide a sleek and dynami
 
 ### Deployed Link
 
-[Live Demo](https://travelopia-trip-planner.vercel.app/)
-
+[Live Demo]()
 ### Screenshots
 
 #### Mobile View
