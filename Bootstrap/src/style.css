@@ -3,22 +3,36 @@
     padding: 0;
     box-sizing: border-box;
 }
-.our-container{
-    max-width: 1600px;
-    margin: auto;
+header{
+    background-color: rgb(255,240,184);
 }
 .navbar{
     display: flex;
     justify-content: space-between;
+    padding: 10px 70px;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+header .navbar .icon{
+    display: none;
 }
 header .navbar .logo{
     display: flex;
     justify-content: center;
     align-items: center;
 }
+header .navbar .logo button{
+    margin: 0 18px;
+}
+header .navbar .logo span{
+    font-weight: 700;
+    font-size: 22px;
+}
 header nav img{
     height: 45px;
     width: 45px;
+    margin-right: 10px;
 }
 .company-images{
     display: flex;
@@ -33,6 +47,180 @@ header nav img{
     margin: 12px;
     border: none;
 }
+header .navbar .nav-link{
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+}
+#dropdown-1{
+    margin:10px -465px;  
+    width: 1024%;
+    padding: 20px;
+    border: none;
+}
+#dropdown-1 .dropdown-item{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 20%;
+    gap: 2%;
+}
+#dropdown-1 .dropdown-item p{
+    width: 85%;
+    text-wrap: wrap;
+    font-size: 15.5px;
+}
+#dropdown-2{
+    margin:10px -600px;  
+    width: 800%;
+    padding: 20px;
+    border: none;
+}
+#dropdown-2 .dropdown-item{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 20%;
+    gap: 2%;
+}
+#dropdown-2 .dropdown-item p{
+    width: 85%;
+    text-wrap: wrap;
+    font-size: 15.5px;
+}
+#dropdown-3{
+    margin:10px -775px;  
+    width: 1335%;
+    padding: 20px;
+    border: none;
+}
+#dropdown-3 .dropdown-item{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 20%;
+    gap: 2%;
+}
+#dropdown-3 .dropdown-item p{
+    width: 85%;
+    text-wrap: wrap;
+    font-size: 15.5px;
+}
+header section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 90px 70px 10px 70px;
+    background-color: rgb(255,240,184);
+}
+header section .container-1{
+    width: 550px;
+}
+header section .container-1 h1{
+    font-size: 60px;
+    margin-top: -20px;
+    font-weight: 700;
+}
+header section .container-1 p{
+    font-weight: 600;
+    font-size: 20px;
+}
+header section .container-1 .input{
+    position: relative;
+}
+header section .container-1 .input input{
+    width: 100%;
+    padding: 10px 43px;
+    border-radius: 4px;
+    border: 1px solid lightgray;
+}
+header section .container-1 .input i{
+    position: absolute;
+    color: rgb(48,112,240);
+    font-size: 24px;
+    padding: 12px 5px;
+}
+header section .container-1 #button-section button{
+    margin: 20px 0;
+    padding: 9px 44px;
+    border: none;
+    background-color: rgb(48,112,240);  
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+}
+header section .container-1 #button-section button:hover{
+    cursor: pointer;
+    background-color: rgb(18, 85, 219);
+}
+header section .container-1 #button-section span{
+    font-weight: 600;
+    margin: 0 0 0 10px;
+}
+header section .container-2{
+    width: 700px;
+}
+header section .container-2 img{
+    width: 100%;
+}
+
+main #integration .integrate-container{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+main #integration .integrate-container .boxes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px;
+}
+main #integration .integrate-container .boxes .box{
+    width: 130px;
+    height: 130px;
+    border: 1px solid lightgray;
+    padding: 10px;
+    border-radius: 10px;
+}
+main #integration .boxes .box img{
+    width: 100%;
+    height: 100%;
+}
+main #integration .integrate-container .text{
+    width: 82%;
+}
+main #integration .integrate-container .text h2{
+    font-size: 49px;
+    text-align: center;
+    font-weight: 700;
+    margin: 20px 0;
+}
+main #integration .integrate-container .text p{
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    margin: 20px 0;
+}
+main #integration .integrate-container .text .btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main #integration .integrate-container .text .btn button{
+    padding: 9px 44px;
+    border: none;
+    background-color: rgb(48,112,240);  
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+} 
+main #integration .integrate-container .text .btn span{
+    color: rgb(48,112,240);
+    padding: 0 15px;
+}
+
+
+
+
+
+
+
 
 
 @media (max-width : 1034px){
@@ -47,6 +235,81 @@ header nav img{
         height: 80px;
     }
 }
+@media (max-width: 1103px){
+    header .nav, .buttons{
+        display: none;
+    }
+    header .logo button{
+        display: none;
+    }
+    header .logo{
+        margin: auto;
+    }
+    .navbar{
+        background-color: rgb(255, 255, 255);
+        z-index: 1000;
+    }
+    header .navbar .icon{
+        display: block;
+    }
+    header #container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    header #container .container-1{
+        width: 100%;
+    }
+    header #container h1, p{
+        margin: auto;
+        text-align: center;
+    }
+    header #container .input{
+        width: 50%;
+        margin: auto;
+    }
+    header #container #button-section{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    header #container .container-2{
+        width: 900px;
+    }
+    header #container .container-2 img{
+        width: 100%;
+    }
+}
+
+@media (max-width: 840px){
+    header #container .container-2{
+        width: 600px;
+    }
+    header #container .container-2 img{
+        width: 100%;
+    }
+    main #integration .integrate-container .text h2{
+        font-size: 34px;
+        text-align: center;
+        font-weight: 700;
+    }
+    main #integration .integrate-container .text p{
+        font-size: 15px;
+        font-weight: 600;
+        text-align: center;
+    }
+}
+@media (max-width: 590px){
+    header #container h1{
+        font-size: 25px;
+    }
+    header #container p{
+        font-size: 12px;
+    }
+    header #container .container-2{
+        width: 300px;
 
  /* --------------------Rakesh------------------ */
 
@@ -168,116 +431,38 @@ font-weight: bolder;
     font-size: 48px;
     margin-bottom: 50px;
     }
-    #features-info-img{
-        max-width: 65%;                
+    header #container .container-2 img{
+        width: 100%;
     }
-    
-    .accordion .accordion-item {
+    header #container .input{
     filter: grayscale(100%);
-    border-top: 1px solid rgb(226, 231, 235);
-    margin: 15px;
-    margin-top: 0px;
-    border-radius: 15px;
-    }  
-    .accordion-header > img{
-        margin-right: 20px;
+        width: 100%;
+        margin: auto;
     }
-
-    
-    #features-info-img>div>img{
+    header #container #button-section{
+        width: 100%;
+        margin: auto;
+    }
+    header #container #button-section button{
         width: 100%;
         box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     }
-    #accordion-sec {
-        max-width: 450px;
-        min-width: 300px;
+    main #integration .integrate-container .text .btn{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
-  /* Custom styles for the accordion */
-
-
-.accordion-item.active {
-    filter: grayscale(0%);
-  border-color: #007bff;
-  background-color: rgb(231, 237, 252);
-  color: rgb(46, 68, 151);
-
-}
-
-.accordion-header {
-  background-color: transparent;
-  color: #212529;
-  padding: 0.75rem 1.25rem;
-  cursor: pointer;
-  border-top: #007bff;
-  border-radius: 8px;
-}
-.accordion-body >div{
-    font-weight: 500;
-    transform: translateY(-20px);
-    margin-top: 0%;
-    margin-left: 70px;
-    line-height: 100%;
-
-}
-.accordion-body >div a{
-    line-height: 300%;
-}
-
-/* Remove the arrow icon */
-.accordion-button::after {
-  display: none;
-}
-
-.accordion-body {
-  padding: 1rem;
-}
-
-.nav-link.activ{
-    color: red;
-}
-
-#nav-tab button{
-    border: 0px;
-    border-top: 2px solid rgb(119, 126, 133);
-    font-weight: 600;
-    color: rgb(119, 126, 133);
-    border-radius: 0%;
-  }
-  #nav-tab{
-    border: none;
-    
-  }
-  #nav-tab .active{
-    border-color: rgb(48, 121, 242);
-    color: rgb(48, 121, 242);
-  }
-  #nav-tab button:hover{
-    color: rgb(48, 121, 242);
-  }
-  .wt2>button{
-    padding-left: 4%;
-    padding-right: 4%;
-  }
-  .wt-container{
-    width: 70%;
-  }
-  
-  .wt-info>div>div>p{
-    font-weight: 600;
-  }
-  .wt-info p{
-    font-size: 19px;
-    font-weight: 500;
-  }
-  .wt-info a{
-    text-decoration: none;
-    font-weight: 600;
-  }
-  #wt-name{
-    border-top: 1px solid rgb(225, 225, 225);
-  }
-  @media (max-width:1050px){
-    #h-img{
-        display: none;
+    main #integration .integrate-container .text .btn button{
+        padding: 9px 24px;
+        border: none;
+        background-color: rgb(48,112,240);  
+        color: rgb(255, 255, 255);
+        border-radius: 5px;
+        font-size: 13px;
+    } 
+    main #integration .integrate-container .text .btn span{
+        font-size: 14px;
     }
-  }
+}
+

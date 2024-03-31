@@ -102,6 +102,155 @@ body{
 }
 
 
+
+
+main{
+  section{
+    font-family: Inter;
+    .span{
+      margin: 10px 115px;
+      
+      span:nth-of-type(1){
+        margin-right: 20px;
+        border-bottom: 2px solid #05073C;
+        padding-bottom: 10px;
+      }
+      span:nth-of-type(2){
+        columns: #000000;
+      }
+    }
+    .locations{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 10px 115px;
+      .location-1, .location-2, .location-3, .location-4{
+        display: flex;
+        justify-content: space-evenly;
+        // align-items: center;
+        flex-direction: column;
+        margin-top: 10px;
+        a{
+          text-decoration: none;
+          color: #05073C;
+          font-weight: 400;
+          font-size: 14px;
+          padding: 5px 0;
+        }
+      }
+    }
+  }
+  #image-section{
+    background-image: url(image-section.png);
+    width: auto;
+    height: 498px;
+    background-position: center;
+    background-size: cover;
+    .text{
+      margin: 120px 0 0 300px;
+      width: 550px;
+      height: 258px;
+      color: rgb(255, 255, 255);
+      h4{
+        font-size: 29px;
+        padding-top: 120px;
+        width: 432px;
+      }
+      p{
+        font-size: 14px;
+      }
+      .input{
+        position: relative;
+        backdrop-filter: blur(2px);
+        input{
+          background-color: transparent;
+          padding: 30px 25px;
+          width: 450px;
+          border: none;
+        }
+        input::placeholder{
+          color: rgb(255, 255, 255);
+        }
+        button{
+          position: absolute;
+          left: 440px;
+          transform: translate(-50%, -50%);
+          top: 50%;
+          background-color: rgb(255, 255, 255);
+          font-family: Inter;
+          border: none;
+          padding: 20px 30px;
+          border-radius: 10px;
+        }
+      }
+    }
+  }
+}
+footer{
+  font-family: Inter;
+  .contact{
+    display: flex;
+    justify-content: space-between;
+    padding: 90px 105px 60px 105px;
+    p{
+      span{
+        color: #4A43C4;
+      }
+    }
+  }
+  hr{
+    width: 1290px;
+    color: lightgray;
+  }
+  .links{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 100px;
+    p{
+      font-size: 14px;
+    }
+    .company-link{
+      display: flex;
+      flex-direction: column;
+      margin: 0 40px;
+      a{
+        text-decoration: none;
+        color: #000000;
+        margin: 5px 0;
+        font-size: 12px;
+      }
+      .footer-input{
+        position: relative;
+        input{
+          padding: 20px 22px;
+          border: 1px solid lightgray;
+          border-radius: 10px;
+        }
+        button{
+          position: absolute;
+          left: 150px;
+          padding: 20px 22px;
+          background-color: rgb(255, 255, 255);
+          border: 1px solid lightgray;
+          border-left: none;
+          border-top-right-radius: 10px;
+          border-bottom-right-radius: 10px;
+        }
+      }
+    }
+  }
+  .bottom-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 100px;
+    p{
+
+      font-size: 12px;
+    }
+  }
+}
+
 // Chaitanya ------------------------------------------------------------------
 #bg{
   width: 100%;

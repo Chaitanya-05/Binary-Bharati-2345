@@ -93,6 +93,152 @@ body {
   padding-bottom: 120px;
 }
 
+main section {
+  font-family: Inter;
+}
+main section .span {
+  margin: 10px 115px;
+}
+main section .span span:nth-of-type(1) {
+  margin-right: 20px;
+  border-bottom: 2px solid #05073C;
+  padding-bottom: 10px;
+}
+main section .span span:nth-of-type(2) {
+  -moz-columns: #000000;
+       columns: #000000;
+}
+main section .locations {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 115px;
+}
+main section .locations .location-1, main section .locations .location-2, main section .locations .location-3, main section .locations .location-4 {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  margin-top: 10px;
+}
+main section .locations .location-1 a, main section .locations .location-2 a, main section .locations .location-3 a, main section .locations .location-4 a {
+  text-decoration: none;
+  color: #05073C;
+  font-weight: 400;
+  font-size: 14px;
+  padding: 5px 0;
+}
+main #image-section {
+  background-image: url(image-section.png);
+  width: auto;
+  height: 498px;
+  background-position: center;
+  background-size: cover;
+}
+main #image-section .text {
+  margin: 120px 0 0 300px;
+  width: 550px;
+  height: 258px;
+  color: rgb(255, 255, 255);
+}
+main #image-section .text h4 {
+  font-size: 29px;
+  padding-top: 120px;
+  width: 432px;
+}
+main #image-section .text p {
+  font-size: 14px;
+}
+main #image-section .text .input {
+  position: relative;
+  -webkit-backdrop-filter: blur(2px);
+          backdrop-filter: blur(2px);
+}
+main #image-section .text .input input {
+  background-color: transparent;
+  padding: 30px 25px;
+  width: 450px;
+  border: none;
+}
+main #image-section .text .input input::-moz-placeholder {
+  color: rgb(255, 255, 255);
+}
+main #image-section .text .input input::placeholder {
+  color: rgb(255, 255, 255);
+}
+main #image-section .text .input button {
+  position: absolute;
+  left: 440px;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  background-color: rgb(255, 255, 255);
+  font-family: Inter;
+  border: none;
+  padding: 20px 30px;
+  border-radius: 10px;
+}
+
+footer {
+  font-family: Inter;
+}
+footer .contact {
+  display: flex;
+  justify-content: space-between;
+  padding: 90px 105px 60px 105px;
+}
+footer .contact p span {
+  color: #4A43C4;
+}
+footer hr {
+  width: 1290px;
+  color: lightgray;
+}
+footer .links {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 100px;
+}
+footer .links p {
+  font-size: 14px;
+}
+footer .links .company-link {
+  display: flex;
+  flex-direction: column;
+  margin: 0 40px;
+}
+footer .links .company-link a {
+  text-decoration: none;
+  color: #000000;
+  margin: 5px 0;
+  font-size: 12px;
+}
+footer .links .company-link .footer-input {
+  position: relative;
+}
+footer .links .company-link .footer-input input {
+  padding: 20px 22px;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+}
+footer .links .company-link .footer-input button {
+  position: absolute;
+  left: 150px;
+  padding: 20px 22px;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid lightgray;
+  border-left: none;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+footer .bottom-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 100px;
+}
+footer .bottom-footer p {
+  font-size: 12px;
+}
+
 #bg {
   width: 100%;
   z-index: -1;
