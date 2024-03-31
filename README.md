@@ -1,11 +1,21 @@
-## Travelopia-TripPlanner
+## TMETRIC
 
-Travelopia is a single-page web component designed to provide a sleek and dynamic user experience for exploring travel options. It incorporates a 100px navbar, 100px footer, an image with overlay text, and a click-triggered alert button. The design is crafted using HTML, CSS, and JavaScript, with a focus on responsiveness and usability.
+Metric is a time tracking app that delivers the best solutions for increased profitability of your business with the most efficient time and resource management.
 
 ### Deployed Link
 
 [Live Demo]()
 ### Screenshots
+<img src="./Screenshots/tmetric/1.png" alt="Mobile View" width="300" 
+style="box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.8);">
+<img src="./Screenshots/tmetric/2.png" alt="Mobile View" width="300" 
+style="box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.8);">
+<img src="./Screenshots/tmetric/3.png" alt="Mobile View" width="300" 
+style="box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.8);">
+<img src="./Screenshots/tmetric/4.png" alt="Mobile View" width="300" 
+style="box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.8);">
+<img src="./Screenshots/tmetric/5.png" alt="Mobile View" width="300" 
+style="box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.8);">
 
 #### Mobile View
 <img src="./assets/smallScreen.png" alt="Mobile View" width="300" 
