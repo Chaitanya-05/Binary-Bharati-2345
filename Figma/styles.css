@@ -93,7 +93,6 @@ body {
   padding-bottom: 120px;
 }
 
-
 .sec3 {
   max-width: 1920px;
   background-color: rgb(5, 7, 60);
@@ -157,6 +156,7 @@ body {
   font-weight: 500;
   line-height: 27px;
   text-align: left;
+}
 
 main section {
   font-family: Inter;
@@ -414,5 +414,83 @@ header > div {
   background-image: url("./img/text (1).png");
   background-position: center;
   background-size: cover;
+}
 
+#com {
+  max-width: 1320px;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 100px;
+}
+
+.pop {
+  margin: auto;
+  max-width: 1320px;
+}
+.pop .get {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: sans-serif;
+}
+.pop .get > div:nth-of-type(1) {
+  margin: 5px 915px 40px 15px;
+  padding-left: 4px;
+}
+.pop .get > div:nth-of-type(2) {
+  border: 2px solid transparent;
+  margin-top: 21.88px;
+  padding: 6px 40px 6px 0px;
+  margin-bottom: 39px;
+}
+.pop .get > div:nth-of-type(2) a {
+  list-style-type: none;
+  text-decoration: none;
+  color: rgb(186, 14, 14);
+}
+.pop .sel-con {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+
+.Trip {
+  margin: auto;
+  max-width: 1320px;
+}
+.Trip .set {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: sans-serif;
+}
+.Trip .set > div:nth-of-type(1) {
+  margin: 5px 915px 40px 15px;
+  padding-left: 4px;
+}
+.Trip .set > div:nth-of-type(2) {
+  border: 2px solid transparent;
+  margin-top: 21.88px;
+  padding: 6px 40px 6px 0px;
+  margin-bottom: 39px;
+}
+.Trip .set > div:nth-of-type(2) a {
+  width: 220px;
+  height: 60px;
+  top: 5px;
+  left: 1085px;
+  padding: 15.94px 20.8px 15.93px 21px;
+  gap: 0px;
+  border-radius: 12px 0px 0px 0px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+  border: 1px solid #E7E6E6;
+}
+.Trip .Future {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
 }/*# sourceMappingURL=styles.css.map */

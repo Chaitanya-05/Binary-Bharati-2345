@@ -19,7 +19,13 @@
 header{
     background-color: rgb(255,240,184);
 }
+#our-nav{
+  width: 100%;
+  max-width: 1600px;
+  margin: auto;
+}
 .navbar{
+  
     display: flex;
     justify-content: space-between;
     padding: 10px 70px;

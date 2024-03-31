@@ -322,7 +322,6 @@ footer{
 // Chaitanya ------------------------------------------------------------------
 
 
-
 #bg{
   width: 100%;
   z-index: -1;
@@ -437,5 +436,85 @@ p{
     }
   }
 }
-
-
+#com{
+  max-width: 1320px;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 100px;
+}
+// Rakesh -----------------------------
+.pop{
+  margin: auto;
+  max-width: 1320px;
+.get{
+  display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: sans-serif;
+    > div:nth-of-type(1) {
+      margin: 5px 915px 40px 15px;
+      padding-left: 4px;
+    }
+    > div:nth-of-type(2) {
+      border: 2px solid transparent;
+      margin-top: 21.88px;
+      padding: 6px 40px 6px 0px;
+      margin-bottom: 39px;
+      a {
+        list-style-type: none;
+        text-decoration: none;
+        color: rgb(186, 14, 14);
+      }
+    }
+}
+.sel-con{
+  display: flex;
+  //flex-direction: column;
+  justify-content:space-between;
+  align-items: center;
+  margin: auto;
+}
+}
+.Trip{
+  margin: auto;
+  max-width: 1320px;
+  .set{
+    display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-family: sans-serif;
+      > div:nth-of-type(1) {
+        margin: 5px 915px 40px 15px;
+        padding-left: 4px;
+      }
+      > div:nth-of-type(2) {
+        border: 2px solid transparent;
+        margin-top: 21.88px;
+        padding: 6px 40px 6px 0px;
+        margin-bottom: 39px;
+        a {
+         // list-style-type: none;
+          //text-decoration: none;
+          //color: rgb(186, 14, 14);
+          width: 220px;
+          height: 60px;
+          top: 5px;
+          left: 1085px;
+          padding: 15.94px 20.8px 15.93px 21px;
+          gap: 0px;
+          border-radius: 12px 0px 0px 0px;
+          border: 1px 0px 0px 0px;
+          opacity: 0px;
+          border: 1px solid #E7E6E6
+        }
+      }
+  }
+  .Future{
+    display: flex;
+  //flex-direction: column;
+  justify-content:space-between;
+  align-items: center;
+  margin: auto;
+  }
+}
