@@ -1,3 +1,10 @@
+
+.our-container {
+  max-width: 1600px;
+  margin: auto;
+}
+
+
 /* common---------------------------------------- */
 .our-container{
     max-width: 1600px;
@@ -22,12 +29,14 @@ header{
 }
 header .navbar .icon{
     display: none;
+
 }
-header .navbar .logo{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+header .navbar .logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
 header .navbar .logo button{
     margin: 0 18px;
 }
@@ -39,19 +48,20 @@ header nav img{
     height: 45px;
     width: 45px;
     margin-right: 10px;
+
 }
-.company-images{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-wrap: wrap;
-    padding: 12px;
+.company-images {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 12px;
 }
-.company-images img{
-    width: 120px;
-    height: 120px;
-    margin: 12px;
-    border: none;
+.company-images img {
+  width: 120px;
+  height: 120px;
+  margin: 12px;
+  border: none;
 }
 header .navbar .nav-link{
     color: rgb(0, 0, 0);
@@ -228,18 +238,17 @@ main #integration .integrate-container .text .btn span{
 
 
 
-
-@media (max-width : 1034px){
-    .company-images img{
-        width: 99.4px;
-        height: 99.4px;
-    }
+@media (max-width: 1034px) {
+  .company-images img {
+    width: 99.4px;
+    height: 99.4px;
+  }
 }
-@media (max-width : 1024px){
-    .company-images img{
-        width: 80px;
-        height: 80px;
-    }
+@media (max-width: 1024px) {
+  .company-images img {
+    width: 80px;
+    height: 80px;
+  }
 }
 @media (max-width: 1103px){
     header .nav, .buttons{
@@ -353,98 +362,92 @@ main #integration .integrate-container .text .btn span{
 
 
 
- /* --------------------Rakesh------------------ */
+/* --------------------Rakesh------------------ */
 
-.review-container{
-    padding: 64px 0;
-    background-color: #fff2cc;
+.review-container {
+  padding: 64px 0;
+  background-color: #fff2cc;
 }
-.review-img-thumbnail{
-    background-color: transparent;
-    margin: 0 auto 2rem;
+.review-img-thumbnail {
+  background-color: transparent;
+  margin: 0 auto 2rem;
 }
-.review-heading{
-    margin-bottom: 2rem;
+.review-heading {
+  margin-bottom: 2rem;
 }
-.container-business-info{
-    padding: 44px 0 33px;
-    text-align: center;
+.container-business-info {
+  padding: 44px 0 33px;
+  text-align: center;
 }
-.businesses-icon-container{
-    
-    list-style: none;
-    
+.businesses-icon-container {
+  list-style: none;
 }
-.view-container{
-    padding: 96px 0 84px; 
-    background-color: #ccffd5; 
+.view-container {
+  padding: 96px 0 84px;
+  background-color: #ccffd5;
 }
 .card {
-    margin: 10px;
-    height: 280px; /* Adjust as needed */
-    overflow: hidden;
-    text-align:left;
-    padding:20px;
-    margin-top: 40px;
-    
+  margin: 10px;
+  height: 280px; /* Adjust as needed */
+  overflow: hidden;
+  text-align: left;
+  padding: 20px;
+  margin-top: 40px;
 }
-#hyper{
-    text-decoration: none;
-    font-weight: 600;
-    font-size: 36px;
+#hyper {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 36px;
 }
 /* --------------------Rakesh(END)------------------ */
 
-
-.ss1{
-width: 900px;
-height: 900px;
-padding-right: 100px;
-/* margin-right: 80px; */
+.ss1 {
+  width: 80%;
+  height: auto;
+  padding-right: 100px;
+  /* margin-right: 80px; */
 }
-.txt1 h1{
-font-size: 42px;
-font-weight: bolder;
-
+.txt1 h1 {
+  font-size: 42px;
+  font-weight: bolder;
 }
-.txt1{
-    /* border: 1px solid; */
-    padding-bottom: 80px;
-    /* margin-right: 80px; */
+.txt1 {
+  /* border: 1px solid; */
+  padding-bottom: 80px;
+  /* margin-right: 80px; */
 }
 
-.cont2{
-    background-color: rgb(248,248,251);
+.cont2 {
+  background-color: rgb(248, 248, 251);
 }
 
-
-
-#cont2{
-    padding: 20px;
-    background-color: rgb(248,248,251);
+#cont2 {
+  padding: 20px;
+  background-color: rgb(248, 248, 251);
 }
-.cont1{
-    padding: 20px;
+.cont1 {
+  padding: 20px;
 }
-@media (max-width:950px){
-#cont2{
+@media (max-width: 950px) {
+  #cont2 {
     flex-direction: column;
+  }
 }
+@media (max-width: 950px) {
+  #cont1 {
+    flex-direction: column;
+  }
 }
-@media (max-width:950px){
-    #cont1{
-        flex-direction: column;
-    }
-    }
-   
-
-
-
-
-
-
 
 /*.------------------------ Chaitanya ------------------------------*/
+
+/* Heading */
+#features-info {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+
 @media (max-width:1050px){
     #features-info>div:nth-child(2){
         flex-direction: column;
@@ -498,12 +501,30 @@ font-weight: bolder;
   /* Custom styles for the accordion */
 
 
+.accordion .accordion-item {
+  border-top: 1px solid rgb(226, 231, 235);
+  margin: 15px;
+  margin-top: 0px;
+  border-radius: 15px;
+}
+.accordion-header > img {
+  margin-right: 20px;
+}
+
+#features-info-img > div > img {
+  width: 100%;
+}
+#accordion-sec {
+  max-width: 450px;
+  min-width: 300px;
+}
+/* Custom styles for the accordion */
+
 .accordion-item.active {
     filter: grayscale(0%);
   border-color: #007bff;
   background-color: rgb(231, 237, 252);
   color: rgb(46, 68, 151);
-
 }
 
 .accordion-header {
@@ -514,16 +535,15 @@ font-weight: bolder;
   border-top: #007bff;
   border-radius: 8px;
 }
-.accordion-body >div{
-    font-weight: 500;
-    transform: translateY(-20px);
-    margin-top: 0%;
-    margin-left: 70px;
-    line-height: 100%;
-
+.accordion-body > div {
+  font-weight: 500;
+  transform: translateY(-20px);
+  margin-top: 0%;
+  margin-left: 70px;
+  line-height: 100%;
 }
-.accordion-body >div a{
-    line-height: 300%;
+.accordion-body > div a {
+  line-height: 300%;
 }
 
 /* Remove the arrow icon */
@@ -534,7 +554,6 @@ font-weight: bolder;
 .accordion-body {
   padding: 1rem;
 }
-
 .nav-link.activ{
     color: red;
 }
@@ -583,3 +602,92 @@ font-weight: bolder;
         display: none;
     }
   }
+
+/* Footer */
+.bot {
+  width: 57%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(234, 237, 240);
+
+  padding: 15px 15px 5px 15px;
+}
+
+.bot > button {
+  background-color: rgb(13, 231, 13);
+  padding: 5px 12px 5px 12px;
+  border-radius: 4px;
+  color: white;
+}
+.foot {
+  display: grid;
+  grid-template-areas: "a b c d e";
+  padding: 30px;
+  background-color: rgb(234, 237, 240);
+}
+
+.foot > div:nth-of-type(1) {
+  grid-area: a;
+}
+.foot > div:nth-of-type(2) {
+  grid-area: b;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  justify-content: start;
+  align-items: self-start;
+}
+.foot > div:nth-of-type(3) {
+  grid-area: c;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  justify-content: start;
+  align-items: self-start;
+}
+.foot > div:nth-of-type(4) {
+  grid-area: d;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  justify-content: start;
+  align-items: self-start;
+}
+.foot > div:nth-of-type(5) {
+  grid-area: e;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  justify-content: start;
+  align-items: self-start;
+}
+
+@media (max-width: 1050px) {
+  .foot {
+    display: grid;
+    grid-template-areas:
+      "a . . ."
+      "b c d e";
+  }
+}
+@media (max-width: 940px) {
+  .foot {
+    display: grid;
+    grid-template-areas:
+      "a ."
+      "b c"
+      "d e";
+    gap: 30px;
+  }
+}
+@media (max-width: 850px) {
+  .bot {
+    margin-left: 165px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
