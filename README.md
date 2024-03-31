@@ -6,15 +6,15 @@ Metric is a time tracking app that delivers the best solutions for increased pro
 
 [Live Demo]()
 ### Screenshots
-<img src="./Screenshots/tmetric/1.png" alt="Mobile View" width="300" 
+<img src="./Screenshots/tmetric/1.png" alt="Mobile View" width="800" 
 style="box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.8);">
-<img src="./Screenshots/tmetric/2.png" alt="Mobile View" width="300" 
+<img src="./Screenshots/tmetric/2.png" alt="Mobile View" width="800" 
 style="box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.8);">
-<img src="./Screenshots/tmetric/3.png" alt="Mobile View" width="300" 
+<img src="./Screenshots/tmetric/3.png" alt="Mobile View" width="800" 
 style="box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.8);">
-<img src="./Screenshots/tmetric/4.png" alt="Mobile View" width="300" 
+<img src="./Screenshots/tmetric/4.png" alt="Mobile View" width="800" 
 style="box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.8);">
-<img src="./Screenshots/tmetric/5.png" alt="Mobile View" width="300" 
+<img src="./Screenshots/tmetric/5.png" alt="Mobile View" width="800" 
 style="box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.8);">
 
 #### Mobile View
