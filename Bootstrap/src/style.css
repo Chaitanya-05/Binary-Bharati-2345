@@ -29,9 +29,9 @@ header{
     display: flex;
     justify-content: space-between;
     padding: 10px 70px;
-    position: fixed;
+
     width: 100%;
-    z-index: 1000;
+
 }
 header .navbar .icon{
     display: none;
