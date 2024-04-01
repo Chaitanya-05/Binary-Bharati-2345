@@ -315,7 +315,7 @@ footer .bottom-footer p {
   height: 750px;
   width: 340px;
   top: 185px;
-  left: 1225px;
+  left: 65%;
 }
 #float img {
   width: 100%;
@@ -353,13 +353,13 @@ header nav > div > div:nth-of-type(4) {
 header p {
   font-size: 14px;
   margin-top: 65px;
-  margin-left: 315px;
+  margin-left: 22%;
 }
 header > div {
   width: 480px;
   font-weight: 600;
   font-size: 60px;
-  margin-left: 315px;
+  margin-left: 22%;
 }
 
 #loc {
