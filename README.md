@@ -2,9 +2,14 @@
 
 Metric is a time tracking app that delivers the best solutions for increased profitability of your business with the most efficient time and resource management.
 
+### Presentation video
+[video](https://youtu.be/C0LW5FLTsZM)
+
 ### Deployed Link
 
-[Live Demo]()
+[TMETRIC Demo](https://660a9c17d2b5ac9413a8c893--gregarious-rabanadas-c8b13b.netlify.app/)
+[Figma](https://660aa070d2b5ac9765a8c74b--chipper-alfajores-594270.netlify.app/)
+
 ### Screenshots
 <img src="./Screenshots/tmetric/1.png" alt="Mobile View" width="500" 
 style="box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.8);">
